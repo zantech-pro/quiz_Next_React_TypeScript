@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz App com Next.js, React, TypeScript e TailwindCSS
 
-## Getting Started
+Este é um projeto de Quiz interativo desenvolvido como parte de um exercício de aprimoramento técnico em React e Next.js, com foco em boas práticas e uso de tecnologias modernas.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+## 📦 Instalação e Uso
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/zantech-pro/quiz_Next_React_TypeScript.git
+cd quiz_Next_React_TypeScript
+npm install
+```
+
+### ▶️ Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse o app em: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/`: Estrutura baseada no App Router do Next.js  
+- `components/`: Componentes reutilizáveis do quiz  
+- `types/`: Tipagem TypeScript para perguntas e respostas  
+- `data/`: Contém os dados persistentes  
 
-## Learn More
+## 🧠 Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Interface moderna e responsiva  
+- Validação de respostas com feedback visual  
+- Renderização dinâmica das perguntas e opções  
+- Resultado final com resumo de acertos e erros  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Aprendizados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto reforça conceitos como:
 
-## Deploy on Vercel
+- Componentização em React  
+- Gerenciamento de estado com `useState`  
+- Tipagem estática com TypeScript  
+- Boas práticas com Next.js (App Router)  
+- Estilização moderna com TailwindCSS  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Você pode visualizar a aplicação em produção acessando:  
+🔗 http://portifolio.zantech.com.br/quiz/
+
+---
+
+Desenvolvido por [Zander de Jesus Lopes - Zantech](https://github.com/zantech-pro) 🚀
