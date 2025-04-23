@@ -6,7 +6,7 @@ import { questions } from "@/data/questions";
 import { useState } from "react";
 
 const Page = () => {
-  const title = 'Quiz de Culinária';
+  const title = 'Quiz de Teste de Conhecimento em React';
   const [currentQuestions, setCurrentQuestions] = useState<number>(0)
   const [answers, setAnswers] = useState<number[]>([])
   const [showResult, setShowResult] = useState(false);
